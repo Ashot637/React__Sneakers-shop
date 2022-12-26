@@ -1,0 +1,29 @@
+@import '../../style/vars.scss';
+
+form{
+    width: 250px;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: $light;
+    display: flex;
+    align-items: center;
+
+    span{
+        color: $gray;
+        margin: auto 14px auto 18px;
+    }
+
+    .search{
+        border: none;
+        color: $gray;
+        height: 40px;
+        width: 160px;
+        font-size: 17px;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+}

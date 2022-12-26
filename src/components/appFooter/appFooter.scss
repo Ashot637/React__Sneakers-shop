@@ -1,0 +1,40 @@
+@import '../../style/vars.scss';
+
+.footer{
+    padding: 20px 0;
+    border-color: $gray;
+    border-top: 1px solid;
+
+    &__inner{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: black;
+        width: fit-content;
+        margin: 0 auto;
+    }
+
+    &__logo{
+        margin-right: 16px;
+
+        .logo__icon{
+            width: 40px;
+            height: 40px;
+        }
+    }
+
+    &__info{
+
+        h2{
+            font-size: 20px;
+            @extend %bold;
+        }
+
+        p{
+            color: $gray;
+            font-size: 14px;
+            @extend %reg;
+        }
+    }
+}

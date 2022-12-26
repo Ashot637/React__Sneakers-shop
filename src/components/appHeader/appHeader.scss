@@ -1,0 +1,91 @@
+@import '../../style/vars.scss';
+
+.header{
+    border-bottom: 1px solid;
+    border-color: $gray;
+    padding-bottom: 30px;
+
+
+    &__inner{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 30px;
+
+    }
+
+    &__left{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: black;
+
+    }
+
+    &__right{
+        display: flex;
+        align-items: center;
+        position: relative;
+        
+
+        .cart__items{
+            display: flex;
+            align-items: center;
+            width: fit-content;
+            margin-right: 30px;
+            cursor: pointer;
+        }
+
+        .header__icon{
+            font-size: 30px;
+            cursor: pointer;
+        }
+
+        .cart{
+            margin-right: 10px;
+        }
+
+        .cart__number{
+            position: absolute;
+            border-radius: 50%;
+            background: $green;
+            color: white;
+            top: -3px;
+            left: 15px;
+            width: 15px;
+            height: 15px;
+            font-size: 12px;
+            text-align: center;
+            @extend %reg;
+        }
+    }
+
+    &__logo{
+        margin-right: 16px;
+
+        .logo__icon{
+            width: 40px;
+            height: 40px;
+        }
+    }
+
+    &__info{
+
+        h2{
+            font-size: 20px;
+            @extend %bold;
+        }
+
+        p{
+            color: $gray;
+            font-size: 14px;
+            @extend %reg;
+        }
+    }
+
+    &__cost{
+        @extend %semi;
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,110 @@
+@import './vars.scss';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.my-app{
+    min-height: calc(100vh - 85px);
+}
+
+.disable-scroll{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.btn{
+    width: 200px;
+    @extend %bold;
+    font-size: 15px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 18px;
+    color: white;
+    background-color: $green;
+    cursor: pointer;
+
+    &:hover{
+        filter: grayscale(.3);
+    }
+    &:disabled{
+        cursor: wait;
+        filter: grayscale(.6);   
+    }
+
+    &__back {
+        width: 245px;
+        padding: 18px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+
+
+        &:hover span{
+            transform: translateX(-5px);
+        }
+
+        >span{
+            transition: 0.2s ease-in-out;
+            position: absolute;
+            left: 20px;
+        }
+
+        >p{
+            padding-left: 15px;
+        }
+    }
+}
+
+.message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 150px;
+    width: 100%;
+
+    &__img{
+        margin-bottom: 24px;
+        width: 70px;
+        height: 70px;
+    }
+
+    &__title{
+        margin-bottom: 12px;
+        font-size: 24px;
+        @extend %semi
+    }
+
+    &__subtitle{
+        margin-bottom: 40px;
+        font-size: 16px;
+        @extend %reg;
+        color: $gray;
+    }
+
+}
+
+.pulse {
+    animation: shine-lines 1.6s infinite;
+}
+
+@keyframes shine-lines{
+  0%{
+    background-position: -100px;
+  }
+  40%, 100%{
+    background-position: 140px;
+}}
