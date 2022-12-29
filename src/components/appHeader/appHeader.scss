@@ -59,6 +59,10 @@
             text-align: center;
             @extend %reg;
         }
+        
+        .icon__link{
+            margin-right: 20px;
+        }
     }
 
     &__logo{

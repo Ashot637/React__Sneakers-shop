@@ -49,7 +49,7 @@ const OrdersList = () => {
                     <div className="container">
                         <div className="cross__list__inner">
                             <div className="cross__list__header">
-                                <h1>Мои покупки</h1>
+                                <p className="cross__list__header__title">Мои покупки</p>
                             </div>
                             <div className="cross__list__items">
                                 {

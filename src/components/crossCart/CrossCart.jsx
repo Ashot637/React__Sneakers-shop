@@ -30,8 +30,11 @@ const CrossCart = memo(({onCloseCart, setOpen}) => {
         <div className={`overlay`} onClick={(e) => onCloseCart(e)}>
             <div className={`cross__cart `}>
                 <div className="cross__cart__inner">
-                    <div className="cross__cart__title">
-                        <h1>Корзина</h1>
+                    <div className="cross__cart__header">
+                        <p className='cross__cart__title'>Корзина</p>
+                        <button className="close__cart" onClick={() => setOpen(false)}>
+                            <img src={icon} alt="" />
+                        </button>
                     </div>
                     { cart.length !== 0 ?
                     <>

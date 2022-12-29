@@ -48,7 +48,7 @@ const FavoritesList = () => {
                     <div className="container">
                         <div className="cross__list__inner">
                             <div className="cross__list__header">
-                                <h1>Мои закладки</h1>
+                                <p className="cross__list__header__title">Мои закладки</p>
                             </div>
                             <div className="cross__list__items">
                             {

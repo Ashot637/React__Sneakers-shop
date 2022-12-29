@@ -9,7 +9,6 @@
 .container {
     margin: 0 auto;
     max-width: 1000px;
-    width: 100%;
 }
 
 .my-app{
@@ -108,3 +107,14 @@
   40%, 100%{
     background-position: 140px;
 }}
+
+.error__wraper{
+    margin-top: 200px;
+}
+
+.not-found{
+    font-size: 40px;
+    @extend %bold;
+    text-align: center;
+    margin: auto;
+}

@@ -1,8 +1,9 @@
 import './skeleton.scss'
+import '../pages/crossList/crossList.scss'
 
 const Skeleton = () => {
     return(
-        <div className="skeleton__grid">
+        <div className="cross__grid">
             <SingleSkeleton/>
             <SingleSkeleton/>
             <SingleSkeleton/>

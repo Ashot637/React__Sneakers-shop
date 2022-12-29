@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 
 import AppHeader from "../appHeader/AppHeader";
 import CrossCart from "../crossCart/CrossCart";
@@ -69,7 +69,7 @@ const App = memo(() => {
                     <main>
                         <Routes>
                             <Route path="/" element={<CrossList/>} />
-                            <Route path="/:crossId" element={<SingleCross/>} />
+                            {/* <Route path="/:crossId" element={<SingleCross/>} /> */}
                             <Route path="/orders" element={<OrdersList/>} />
                             <Route path="/favorites" element={<FavoritesList/>} />
                             <Route path="*" element={<ErrorPage/>} />

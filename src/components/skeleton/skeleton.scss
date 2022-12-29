@@ -8,13 +8,7 @@
     border-radius: 40px;
     display: flex;
     flex-direction: column;
-
-    &__grid{
-        display: grid;
-        grid-template-columns: repeat(4, 210px);
-        justify-content: space-between;
-        gap: 40px;
-    }
+    
     &__header{
         width: 150px;
         height: 90px;

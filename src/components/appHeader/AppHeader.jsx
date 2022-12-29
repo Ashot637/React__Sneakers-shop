@@ -33,7 +33,7 @@ const AppHeader = ({onOpenCart}) => {
                                 cart.map(item => +item.price.replace(/\s/g, '')).reduce((acc, sum) => acc + sum) : 0
                             } руб.</div>
                         </div>
-                        <Link to={'/favorites'} style={{color: 'black', marginRight: 20}}>
+                        <Link to={'/favorites'} style={{color: 'black'}} className='icon__link'>
                             <span className="material-symbols-outlined header__icon account">
                                 favorite
                             </span>
