@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/React__Sneakers-shop/static/css/main.bc28c54b.css",
+    "main.css": "/React__Sneakers-shop/static/css/main.f695836c.css",
     "main.js": "/React__Sneakers-shop/static/js/main.f36a42ef.js",
     "static/media/cross9.jpg": "/React__Sneakers-shop/static/media/cross9.8ff09b50bacc28a95be3.jpg",
     "static/media/cross1.jpg": "/React__Sneakers-shop/static/media/cross1.41466ce1457d36b873a9.jpg",
@@ -15,11 +15,11 @@
     "static/media/cross2.png": "/React__Sneakers-shop/static/media/cross2.f5db17dfb1351e58b315.png",
     "static/media/emptyCart.jpg": "/React__Sneakers-shop/static/media/emptyCart.fc5c7a46e159dd5e40ce.jpg",
     "index.html": "/React__Sneakers-shop/index.html",
-    "main.bc28c54b.css.map": "/React__Sneakers-shop/static/css/main.bc28c54b.css.map",
+    "main.f695836c.css.map": "/React__Sneakers-shop/static/css/main.f695836c.css.map",
     "main.f36a42ef.js.map": "/React__Sneakers-shop/static/js/main.f36a42ef.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc28c54b.css",
+    "static/css/main.f695836c.css",
     "static/js/main.f36a42ef.js"
   ]
 }
